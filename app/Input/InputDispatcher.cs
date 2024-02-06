@@ -648,7 +648,8 @@ namespace GHelper.Input
                         return;
                     case 179:   // FN+F4
                     case 178:   // FN+F4
-                        KeyProcess("fnf4");
+                        KeyboardHook.KeyPress(Keys.MediaNextTrack);
+                        // KeyProcess("fnf4");
                         return;
                     case 158:   // Fn + C
                         KeyProcess("fnc");
@@ -663,10 +664,12 @@ namespace GHelper.Input
                         TabletMode();
                         return;
                     case 197: // FN+F2
-                        SetBacklight(-1);
+                        KeyboardHook.KeyPress(Keys.MediaPreviousTrack);
+                        // SetBacklight(-1);
                         return;
                     case 196: // FN+F3
-                        SetBacklight(1);
+                        KeyboardHook.KeyPress(Keys.MediaPlayPause);
+                        // SetBacklight(1);
                         return;
                     case 199: // ON Z13 - FN+F11 - cycles backlight
                         SetBacklight(4);
