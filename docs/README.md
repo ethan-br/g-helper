@@ -31,7 +31,7 @@ I had recently broken the spacebar on my keyboard and around the same time I dis
 - Clone repo
 - Make sure your current working directory is `g-helper/app`
    - If not run `cd app`
-- Run `dotnet run ./GHelper.sln`
+- Run `dotnet build ./GHelper.sln`
 - You should now have a folder called `bin` at `g-helper/app/bin`
 - Copy everything inside the `g-helper/app/bin/Debug` (x86) or `g-helper/app/bin/x64/Debug` (x64) folder to your preferred install location
 - Create a shortcut to `ghelper.exe` and put it in `%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
