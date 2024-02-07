@@ -3,9 +3,9 @@
 ### 🤔 Why did I make this?
 I had recently broken the spacebar on my keyboard and around the same time I discovered that some Zephyrus G14 models had a different layouts for the function keys. Since I was going to order and replace my keyboard anyways, I was the perfect opportunity to order a new keyboard with the layout that I preferred. I though the drivers would automatically adjust to the new function key layout but that was not the case so I coded it myself.
 
-Old Layout:                                                                                             New Layout:
-
-<img src="https://i.postimg.cc/7LMZHdwN/5177-Hn-Ssz-L-AC-SL1500.jpg" alt="old" height="270"/> <img src="https://m.media-amazon.com/images/I/61roQ15VnNL._AC_UF894,1000_QL80_.jpg" alt="new" height="270"/>
+|Old Layout|New Layout|
+|---|---|
+|<img src="https://i.ibb.co/zQjyVQm/5177-Hn-Ssz-L-AC-SL1500.jpg" alt="old"/>|<img src="https://i.postimg.cc/nVWRyFb6/61ro-Q15-Vn-NL-AC-UF894-1000-QL80-1.jpg" alt="new"/>|
 
 ### ⌨️ Remapped Keys
 
