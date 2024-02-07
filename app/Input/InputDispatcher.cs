@@ -6,6 +6,7 @@ using Microsoft.Win32;
 using System.Diagnostics;
 using System.Management;
 using System.Text.RegularExpressions;
+using GHelper.BacklightRemap;
 
 namespace GHelper.Input
 {
@@ -84,6 +85,7 @@ namespace GHelper.Input
                 Logger.WriteLine("Optimization service is running");
 
             InitBacklightTimer();
+            InitBacklightRemap();
 
             if (AppConfig.ContainsModel("VivoBook")) Program.acpi.DeviceSet(AsusACPI.FnLock, AppConfig.Is("fn_lock") ? 1 : 0, "FnLock");
 
@@ -95,7 +97,12 @@ namespace GHelper.Input
                             AppConfig.Get("keyboard_ac_timeout") > 0 && SystemInformation.PowerStatus.PowerLineStatus == PowerLineStatus.Online;
         }
 
-
+        public void InitBacklightRemap()
+        {
+            // Create and run the KeyPressHandler
+            BacklightRemapHandler backlightRemap = new BacklightRemapHandler();
+            backlightRemap.Run(); // Add a method to start the ApplicationContext
+        }
 
         public void RegisterKeys()
         {
