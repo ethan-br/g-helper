@@ -20,8 +20,22 @@ I had recently broken the spacebar on my keyboard and around the same time I dis
 ### 🪰 Known Bugs
 - Window flashes when appearing
 - There is a `System.InvalidOperationException` when quitting the program
-   - Does not have any side effects and can safely be ignored
+   - This does not have any side effects and can safely be ignored (click "Quit" again in the error window)
+ 
+### 🏗️ How to install
 
+#### Requirements
+- [Microsoft .NET 7](https://download.visualstudio.microsoft.com/download/pr/03a5170a-a4cd-458c-b5d0-e5149ee4fdcf/e9026f6fe3c3fec4a774e034d4f98ead/dotnet-sdk-7.0.404-win-x64.exe)
+
+#### Install Steps
+- Clone repo
+- Make sure your current working directory is `g-helper/app`
+   - If not run `cd app`
+- Run `dotnet run ./GHelper.sln`
+- You should now have a folder called `bin` at `g-helper/app/bin`
+- Copy everything inside the `g-helper/app/bin/Debug` (x86) or `g-helper/app/bin/x64/Debug` (x64) folder to your preferred install location
+- Create a shortcut to `ghelper.exe` and put it in `%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
+- G-Helper should now run on startup
 ------------------
 ### 🔖 Important Notice
 
