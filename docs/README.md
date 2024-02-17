@@ -1,7 +1,7 @@
 # G-Helper (with remapped keys)
 
 ### 🤔 Why did I make this?
-I had recently broken the spacebar on my keyboard and around the same time I discovered that some Zephyrus G14 models had a different layouts for the function keys. Since I was going to order and replace my keyboard anyways, I was the perfect opportunity to order a new keyboard with the layout that I preferred. I though the drivers would automatically adjust to the new function key layout but that was not the case so I coded it myself.
+I had recently broken the spacebar on my keyboard and around the same time I discovered that some Zephyrus G14 models had a different layouts for the function keys. Since I was going to order and replace my keyboard anyways, it was the perfect opportunity to order a new keyboard with the layout that I preferred. I though the drivers would automatically adjust to the new function key layout but that was not the case so I coded it myself.
 
 |Old Layout|New Layout|
 |---|---|
